@@ -23,6 +23,7 @@ Notification System: Alerts for events and important updates
 Accessibility Features: Support for various visitor needs
 
 
+
 🛠️ Technology Stack
 
 Frontend: React Native (iOS & Android compatible)
