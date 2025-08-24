@@ -1,43 +1,122 @@
-PineCityZoo App
-A mobile application designed to enhance the visitor experience at Pine City Zoo by providing interactive maps, animal information, and event schedules.
+PineCityZoo Visitor App
+A comprehensive mobile application designed to enhance the visitor experience at Pine City Zoo by providing interactive features, educational content, and seamless navigation.
 
-Overview
-The PineCityZoo app is developed as part of the FNB App Academy projects to modernize the zoo's visitor engagement through digital solutions. It offers features such as:
+📱 About the App
+PineCityZoo App is developed as part of the FNB App Academy projects initiative, aimed at modernizing zoo visitor experiences through digital innovation. The app serves as a digital companion for zoo visitors, offering real-time information and interactive services.
 
-Interactive zoo maps with real-time location tracking
+✨ Features
+Interactive Zoo Map: Real-time navigation with points of interest
 
-Detailed information about animals and exhibits
+Animal Database: Detailed information about species, habitats, and conservation status
 
-Event schedules and notifications
+Event Calendar: Upcoming events, feeding times, and special shows
 
-Ticket purchasing and membership management
+Digital Ticketing: Purchase and store tickets within the app
 
-Educational content and conservation information
+Educational Content: Learning resources and fun facts about wildlife
 
-Technology Stack
-Frontend: React Native / Flutter (specify based on actual tech used)
+Notification System: Alerts for events and important updates
 
-Backend: Node.js / Firebase (or relevant backend)
+Accessibility Features: Support for various visitor needs
 
-Database: Firebase Firestore / MongoDB (or relevant database)
+🛠️ Technology Stack
+Frontend: React Native (iOS & Android compatible)
 
-Maps Integration: Google Maps API / Mapbox
+Backend: Firebase (Authentication, Firestore, Cloud Functions)
 
-Payment Gateway: (e.g., Stripe, PayPal)
+Mapping: React Native Maps with custom zoo overlays
 
-Usage
-Open the app and allow location permissions for map functionality.
+State Management: Redux Toolkit
 
-Browse animals, events, or purchase tickets from the home screen.
+UI Framework: React Native Paper
 
-Use the navigation menu to access different features.
+Payment Integration: Stripe API for ticket purchases
 
-Contributing
-This project is part of the FNB App Academy program. Contributions are welcome via forks and pull requests.
+🚀 Installation
+Prerequisites
+Node.js (v14 or higher)
 
-License
-This project is licensed under the MIT License.
+npm or yarn
 
-Contact
-For questions or support, contact the development team via the GitHub repository issues page.
+React Native development environment setup
 
+iOS: Xcode (for Mac users)
+
+Android: Android Studio
+
+Setup Instructions
+Clone the repository:
+
+bash
+git clone https://github.com/Neo21702/FNB-App-Academy-projects.git
+cd FNB-App-Academy-projects/PineCityZoo
+Install dependencies:
+
+bash
+npm install
+# or
+yarn install
+Configure environment variables:
+
+bash
+cp .env.example .env
+# Add your API keys and configuration values
+Run the application:
+
+bash
+# For iOS
+npx react-native run-ios
+
+# For Android
+npx react-native run-android
+
+📁 Project Structure
+PineCityZoo/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── screens/        # App screens
+│   ├── navigation/     # Navigation configuration
+│   ├── services/       # API services and integrations
+│   ├── utils/          # Helper functions and utilities
+│   └── store/          # Redux store and slices
+├── assets/             # Images, icons, and other media
+└── docs/               # Documentation
+
+🔧 Configuration
+Obtain API keys for:
+
+Firebase Project
+
+Google Maps (if applicable)
+
+Stripe (for payments)
+
+Update configuration files:
+
+firebase.config.js
+
+app.config.js
+
+🤝 Contributing
+This project was developed as part of the FNB App Academy program. While primarily an educational project, we welcome feedback and suggestions.
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+📞 Support
+For questions or support regarding the PineCityZoo app:
+
+Open an issue in this repository
+
+Contact the development team through the FNB App Academy program
+
+🏗️ Future Enhancements
+AR animal experiences
+
+Multi-language support
+
+Offline functionality
+
+Social features and photo sharing
+
+Advanced analytics for zoo management
