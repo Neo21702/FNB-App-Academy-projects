@@ -1,10 +1,13 @@
 PineCityZoo Visitor App
+
 A comprehensive mobile application designed to enhance the visitor experience at Pine City Zoo by providing interactive features, educational content, and seamless navigation.
 
 📱 About the App
+
 PineCityZoo App is developed as part of the FNB App Academy projects initiative, aimed at modernizing zoo visitor experiences through digital innovation. The app serves as a digital companion for zoo visitors, offering real-time information and interactive services.
 
 ✨ Features
+
 Interactive Zoo Map: Real-time navigation with points of interest
 
 Animal Database: Detailed information about species, habitats, and conservation status
@@ -20,6 +23,7 @@ Notification System: Alerts for events and important updates
 Accessibility Features: Support for various visitor needs
 
 🛠️ Technology Stack
+
 Frontend: React Native (iOS & Android compatible)
 
 Backend: Firebase (Authentication, Firestore, Cloud Functions)
@@ -71,6 +75,7 @@ npx react-native run-ios
 npx react-native run-android
 
 📁 Project Structure
+
 PineCityZoo/
 ├── src/
 │   ├── components/     # Reusable UI components
@@ -98,12 +103,15 @@ firebase.config.js
 app.config.js
 
 🤝 Contributing
+
 This project was developed as part of the FNB App Academy program. While primarily an educational project, we welcome feedback and suggestions.
 
 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 📞 Support
+
 For questions or support regarding the PineCityZoo app:
 
 Open an issue in this repository
@@ -111,6 +119,7 @@ Open an issue in this repository
 Contact the development team through the FNB App Academy program
 
 🏗️ Future Enhancements
+
 AR animal experiences
 
 Multi-language support
