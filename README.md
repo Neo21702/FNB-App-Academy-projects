@@ -1,80 +1,43 @@
-# FNB App Academy Projects
+PineCityZoo App
+A mobile application designed to enhance the visitor experience at Pine City Zoo by providing interactive maps, animal information, and event schedules.
 
-A curated collection of projects developed during the **FNB App Academy** bootcamp. This repository showcases a journey through full-stack web development, featuring hands-on applications built with modern technologies like React, Node.js, Express, and PostgreSQL.
+Overview
+The PineCityZoo app is developed as part of the FNB App Academy projects to modernize the zoo's visitor engagement through digital solutions. It offers features such as:
 
-## 📁 Project Overview
+Interactive zoo maps with real-time location tracking
 
-This repository is organized into multiple directories, each representing a distinct project or module from the academy. Below is a summary of the key projects included:
+Detailed information about animals and exhibits
 
-### **1. Capstone Project (`/capstone`)**
-The culminating project of the academy, demonstrating proficiency in full-stack development. This is a fully-functional web application integrating a React frontend with a robust Node.js/Express backend and a PostgreSQL database.
+Event schedules and notifications
 
-### **2. Frontend Projects (`/frontend-projects`)**
-A series of projects focused on building dynamic and responsive user interfaces.
-*   **React Applications:** Interactive single-page applications (SPAs) built using React, showcasing state management, component-based architecture, and API consumption.
-*   **HTML/CSS/JavaScript:** Foundational projects highlighting core web development skills, DOM manipulation, and responsive design principles.
+Ticket purchasing and membership management
 
-### **3. Backend Projects (`/backend-projects`)**
-Projects centered around server-side logic, API design, and database management.
-*   **Node.js & Express:** RESTful API servers handling HTTP requests, middleware, routing, and user authentication.
-*   **PostgreSQL & SQL:** Database schemas, queries, and operations demonstrating data modeling and efficient data persistence.
+Educational content and conservation information
 
-### **4. Algorithm & Data Structure Challenges (`/algorithm-challenges`)**
-A compilation of solved coding challenges focusing on problem-solving, algorithmic efficiency, and data structure implementation.
+Technology Stack
+Frontend: React Native / Flutter (specify based on actual tech used)
 
-## 🛠️ Technologies Used
+Backend: Node.js / Firebase (or relevant backend)
 
-*   **Frontend:** React, HTML5, CSS3, JavaScript (ES6+)
-*   **Backend:** Node.js, Express.js
-*   **Database:** PostgreSQL
-*   **Authentication:** JWT (JSON Web Tokens)
-*   **Version Control:** Git, GitHub
-*   **Other Tools:** Various npm packages
+Database: Firebase Firestore / MongoDB (or relevant database)
 
-## 🚀 Getting Started
+Maps Integration: Google Maps API / Mapbox
 
-To run any of these projects locally, follow these general steps. Please check the specific `README.md` file within each project directory for detailed instructions.
+Payment Gateway: (e.g., Stripe, PayPal)
 
-### Prerequisites
-*   Node.js (v14 or higher)
-*   npm or yarn
-*   PostgreSQL
+Usage
+Open the app and allow location permissions for map functionality.
 
-### Installation & Setup
+Browse animals, events, or purchase tickets from the home screen.
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/Neo21702/FNB-App-Academy-projects.git
-    cd FNB-App-Academy-projects
-    ```
+Use the navigation menu to access different features.
 
-2.  **Navigate to a specific project directory:**
-    ```bash
-    cd project-directory-name
-    ```
+Contributing
+This project is part of the FNB App Academy program. Contributions are welcome via forks and pull requests.
 
-3.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
+License
+This project is licensed under the MIT License.
 
-4.  **Set up the database:**
-    *   Create a new PostgreSQL database.
-    *   Configure your environment variables (e.g., in a `.env` file) with your database connection string and other secrets.
-    *   Run the database schema scripts (if provided).
+Contact
+For questions or support, contact the development team via the GitHub repository issues page.
 
-5.  **Run the application:**
-    *   For the backend (if applicable):
-        ```bash
-        npm run server
-        ```
-    *   For the frontend (if applicable):
-        ```bash
-        npm run client
-        ```
-    *   For full-stack projects with a `package.json` in the root, you might use:
-        ```bash
-        npm run dev
-        ```
-
-## 📂 Repository Structure
