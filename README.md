@@ -38,6 +38,7 @@ UI Framework: React Native Paper
 Payment Integration: Stripe API for ticket purchases
 
 
+
 🚀 Installation
 Prerequisites
 Node.js (v14 or higher)
