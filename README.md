@@ -22,6 +22,7 @@ Notification System: Alerts for events and important updates
 
 Accessibility Features: Support for various visitor needs
 
+
 🛠️ Technology Stack
 
 Frontend: React Native (iOS & Android compatible)
@@ -35,6 +36,7 @@ State Management: Redux Toolkit
 UI Framework: React Native Paper
 
 Payment Integration: Stripe API for ticket purchases
+
 
 🚀 Installation
 Prerequisites
@@ -102,13 +104,16 @@ firebase.config.js
 
 app.config.js
 
+
 🤝 Contributing
 
 This project was developed as part of the FNB App Academy program. While primarily an educational project, we welcome feedback and suggestions.
 
+
 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 📞 Support
 
@@ -117,6 +122,7 @@ For questions or support regarding the PineCityZoo app:
 Open an issue in this repository
 
 Contact the development team through the FNB App Academy program
+
 
 🏗️ Future Enhancements
 
